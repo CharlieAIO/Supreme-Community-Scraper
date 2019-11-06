@@ -35,3 +35,7 @@ def main():
         webhook_name.set_footer(text='CharlieAIO | Supreme Droplist')
         Hook.send(embed=webhook_name)
         print("| WEBHOOK SENT |")
+
+        
+if __name__ == "__main__":
+    main()
